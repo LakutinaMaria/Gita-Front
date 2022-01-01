@@ -1,0 +1,99 @@
+/*b4a284 a2a595 f6ead4*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600;700&display=swap');
+.topbarContainer{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+}
+ .topbarLeft{
+    flex: 3;
+ }
+ .topbarCenter{
+    flex: 5;
+ }
+ .topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #edf0f1;
+ }
+ .topbarImg{
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     object-fit: cover;
+     cursor:pointer;
+ }
+
+.topbarLink{
+    transition: all 0.3ms ease 0s;
+}
+.topbarLink:hover{
+  color: #7d8080;
+}
+ .topbarLink{
+     margin-right: 10px;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ .topbarIcons{
+     display: flex;
+ }
+ .topbarIconItem{
+     margin-right: 15px;
+     cursor: pointer;
+     position: relative;
+     transition: all 0.3ms ease 0s;
+ }
+
+ .topbarIconItem:hover{
+    color: #7d8080;
+  }
+ .topbarIconBadge{
+     width: 15px;
+     height: 15px;
+     background-color: red;
+     border-radius: 50%;
+     color: #edf0f1;
+     position: absolute;
+     top: -5px;
+     right: -5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 12px;
+ }
+ .logo{
+     font-size: 24px;
+     margin-left: 20px;
+     font-weight: bold;
+     color: #edf0f1;
+     cursor: pointer;
+ }
+
+ .searchbar{
+    width:100%;
+    height: 30%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+ }
+ .searchIcon{
+    font-size: 18px !important;
+    margin-left: 10px;
+}
+ .searchinput{
+    border:none;
+    width: 70%;
+}
+.searchinput:focus{
+    outline: none;
+}
