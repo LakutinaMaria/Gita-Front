@@ -1,0 +1,69 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerWrapper {
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    color: #edf0f1;
+    border-radius: 5%;
+
+}
+
+.registerLeft, .registerRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.registerLogo {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.registerDesc {
+    font-size: 20px;
+}
+
+.registerBox {
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registerInput {
+    height: 35px;
+    border-radius: 10px;
+    border: #7d8080 1px solid;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    height: 35px;
+    border-radius: 10px;
+    border: #7d8080;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #909090;
+    cursor: pointer;
+}
+
+
+
