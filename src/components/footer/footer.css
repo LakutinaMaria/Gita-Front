@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600;700&display=swap');
+
+.footerContainer {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+}
+
+.footerCenter {
+    width: 100%;
+    color: #7d8080;
+    justify-content: space-around;
+    display: flex;
+}
+.copyrights{
+    align-items: center;
+}

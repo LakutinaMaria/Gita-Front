@@ -3,7 +3,7 @@ import {Search, Person, Chat, Notifications} from "@mui/icons-material"
 
 export default function TopBar(){
     return (
-        <nav class="topbarContainer">
+        <nav className="topbarContainer">
             <div className="topbarLeft">
                 <span className="logo">GGita</span>
             </div>
